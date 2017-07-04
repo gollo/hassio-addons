@@ -1,0 +1,20 @@
+{
+  "name": "FireTV Server",
+  "version": "0.01.21",
+  "slug": "firetv_server",
+  "description": "FireTV Server hass.io add-on",
+  "startup": "before",
+  "boot": "auto",
+  "options": {
+    "devices": [
+      { "name": "whatyouwanttocallit", "host": "hostname/IP", "port": 5555 }
+    ]
+  },
+  "schema": {
+    "devices": [
+      { "name": "str", "host": "str", "port": "int" }
+    ]
+  },
+  "ports": {
+    "5556/tcp": 5556 }
+}
