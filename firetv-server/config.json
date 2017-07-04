@@ -1,6 +1,6 @@
 {
   "name": "FireTV Server",
-  "version": "0.01.21",
+  "version": "0.01.22",
   "slug": "firetv_server",
   "description": "FireTV Server hass.io add-on",
   "startup": "before",
