@@ -1,7 +1,7 @@
 {
   "name": "FireTV Server",
-  "version": "0.01.22",
-  "slug": "firetv_server",
+  "version": "0.02.0",
+  "slug": "firetv-server",
   "description": "FireTV Server hass.io add-on",
   "startup": "before",
   "boot": "auto",
@@ -16,5 +16,6 @@
     ]
   },
   "ports": {
-    "5556/tcp": 5556 }
+    "5556/tcp": 5556 },
+  "image": "https://github.com/gollo/hassio-addons/image-{arch}-addon-firetv-server"
 }
