@@ -18,5 +18,5 @@
   },
   "ports": {
     "5556/tcp": 5556 },
-  "image": "https://github.com/gollo/hassio-addons/firetv-server/image-{arch}-addon-firetv-server"
+  "image": "gollo/hassio-addons/firetv-server/image-{arch}-addon-firetv-server"
 }
