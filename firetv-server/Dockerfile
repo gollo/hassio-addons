@@ -3,12 +3,9 @@ FROM %%BASE_IMAGE%%
 ENV LANG C.UTF-8
 
 # Install requirements for add-on
-#RUN apk add --no-cache flask firetv[firetv-server]
-#RUN apk add --no-cache python && pip install flask firetv[firetv-server]
-RUN apk add --no-cache python python-dev py2-pip jq openssl-dev libusb musl-dev gcc \
-   && pip install flask firetv[firetv-server]
-#RUN apk add --no-cache tzdata jq python3 \
-#  && pip3 install --no-cache --upgrade pip
+RUN apk add --no-cache python python-dev py2-pip jq openssl-dev libusb musl-dev py-yaml gcc \
+   && pip install flask \
+   && pip install --upgrade https://github.com/gollo/python-firetv/zipball/stability_debug
 
 # Python 3 HTTP Server serves the current working dir
 # So let's set it to our add-on persistent data directory.
