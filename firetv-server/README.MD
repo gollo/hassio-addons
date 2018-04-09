@@ -1,6 +1,6 @@
 This addon runs the [FireTV Server](https://github.com/happyleavesaoc/python-firetv) daemon to communicate with FireTV devices.
 
-The addon is stored in this https://gitub.com/gollo/hassio-addons repository. You will have to add this Add-On Repositories section of the Add-On Shop page in the hassio dashboard. From here you can install the addon like any other. Do not yet start the add-on.
+The addon is stored in this https://github.com/gollo/hassio-addons repository. You will have to add this Add-On Repositories section of the Add-On Shop page in the hassio dashboard. From here you can install the addon like any other. Do not yet start the add-on.
 
 Follow the first two steps from [here](https://home-assistant.io/components/media_player.firetv/) to set up your Fire TV device with ADB and retrieve the IP address and port. There is no need to follow any further steps until the HASS configuration.yaml documented towards the end.
 
